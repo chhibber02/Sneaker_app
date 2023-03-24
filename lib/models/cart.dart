@@ -1,5 +1,4 @@
 import 'package:flutter/cupertino.dart';
-import 'package:provider/provider.dart';
 import 'package:sneaker_shop/models/shoe.dart';
 
 class Cart extends ChangeNotifier {
@@ -29,7 +28,7 @@ class Cart extends ChangeNotifier {
     ),
 
     Shoe(
-      name: 'LeBron Witness 7',
+      name: 'LeBron Witness',
       imagePath: 'lib/images/LeBrons.webp',
       description: 'Cool fkin shoes. What else do you need?',
       price: '250',

@@ -2,9 +2,15 @@ import 'package:flutter/material.dart';
 import 'package:sneaker_shop/models/shoe.dart';
 
 class ShoeTile extends StatelessWidget {
+  void Function(TapDownDetails)? onTapDown;
   void Function()? onTap;
   Shoe shoe;
-  ShoeTile({super.key, required this.shoe, required this.onTap});
+  ShoeTile({
+    super.key,
+    required this.shoe,
+    required this.onTap,
+    required this.onTapDown,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -71,6 +77,7 @@ class ShoeTile extends StatelessWidget {
 
                 //plus button
                 GestureDetector(
+                  onTapDown: onTapDown,
                   onTap: onTap,
                   child: Container(
                     padding: const EdgeInsets.all(20),
