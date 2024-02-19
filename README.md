@@ -60,7 +60,9 @@ I welcome contributions!
 
 
 ## Additional Information
+
 Report any bugs or issues on the GitHub issue tracker.
-Resources
+
+### Resources
 Flutter documentation: [[link to Flutter docs]](https://docs.flutter.dev/)
 
