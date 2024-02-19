@@ -49,9 +49,9 @@ flutter run-ios
 
 ### Folder Structure
 
-`lib`: Contains the main source code of the app.
-`assets`: Holds images, fonts, and other resources.
-`pubspec.yaml`: Defines project dependencies and configurations.
+* `lib`: Contains the main source code of the app.
+* `assets`: Holds images, fonts, and other resources.
+* `pubspec.yaml`: Defines project dependencies and configurations.
 
 ## Contributing
 I welcome contributions!
