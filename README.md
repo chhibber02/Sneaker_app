@@ -39,7 +39,6 @@ This project allows me to:
 
 ```
 flutter run-android
-Use code with caution.
 ```
 
 #### IOS:
